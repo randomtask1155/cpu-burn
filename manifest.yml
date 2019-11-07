@@ -1,0 +1,12 @@
+---
+applications:
+  - name: cpu-burn
+    memory: 128M
+    instances: 1
+    buildpack: https://github.com/kr/heroku-buildpack-go.git
+    command: cpu-burn
+    health-check-type: none
+    env:
+      NUM_CORES: 1
+      BURN_SPEED: light
+

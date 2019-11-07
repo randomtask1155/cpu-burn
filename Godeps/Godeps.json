@@ -1,0 +1,6 @@
+{
+	"ImportPath": "github.com/randomtask1155/cpu-burn",
+	"GoVersion": "go1.13",
+	"GodepVersion": "v80",
+	"Deps": []
+}
